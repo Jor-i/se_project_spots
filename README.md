@@ -21,8 +21,15 @@ Spots is an interactive image-sharing application. Users can upload or remove th
 
 **Media Showcase**
 
+![Desktop View](./images/demo/desktop-view.png)
+![Tablet/transition View](./images/demo/tablet-view.png)
+![Mobile View](./images/demo/mobile-view.png)
+![Edit Button Hover State](./images/demo/edit-profile_hover.png)
+![New Post Hover State](./images/demo/new-post_hover.png)
+![Like Button Hover State](./images/demo/like-btn_hover.png)
+
 **Links**
 
 Deployed to GitHub Pages
 
-- Deployment link
+- [Deployment link](https://jor-i.github.io/se_project_spots/)
