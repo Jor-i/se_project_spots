@@ -32,6 +32,9 @@
   height: 20px;
   opacity: 40%;
   border: none;
+  cursor: pointer;
+  padding: 0;
+  background: no-repeat center contain;
 }
 
 .card__like-btn:hover {
@@ -45,6 +48,6 @@
 
   .card__title {
     font-size: 16px;
-    max-width: 250px;
+    max-width: 235x;
   }
 }
