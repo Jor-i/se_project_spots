@@ -36,4 +36,4 @@ Spots is an interactive image-sharing application. Users can upload or remove th
 
 **Project Pitch**
 
-- [Pitch Link]()
+- [Pitch Link](https://www.loom.com/share/21c956011f98446cb12ac4dab2e7c146)
