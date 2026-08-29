@@ -23,6 +23,7 @@
 .modal__container {
   position: relative;
   background-color: #ffffff;
+  box-sizing: border-box;
   max-width: 730px;
   width: 100%;
   border-radius: 8px;
@@ -41,8 +42,10 @@
 
 .modal__close-btn {
   position: absolute;
+  padding: 0;
   width: 40px;
   height: 40px;
+  top: 32px;
   right: 50px;
   display: flex;
   justify-content: center;
@@ -50,6 +53,7 @@
   background-color: #ffffff;
   opacity: 0.4;
   border: 0;
+  cursor: pointer;
 }
 
 .modal__close-btn:hover {
@@ -94,6 +98,7 @@
   width: 156px;
   border: 0;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .modal__submit-btn:hover {
@@ -102,7 +107,7 @@
 
 @media screen and (max-width: 627px) {
   .modal__container {
-    padding: 12px;
+    padding: 22px 12px 12px;
   }
 
   .modal__form {
@@ -115,6 +120,7 @@
   }
 
   .modal__close-btn {
+    top: 22px;
     right: 12px;
   }
 
