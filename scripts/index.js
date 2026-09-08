@@ -51,26 +51,32 @@ editProfileBtn.addEventListener("click", function () {
   editProfileDescriptionInput.value = profileDescription.textContent;
 });
 
-editProfileCloseBtn.addEventListener("click", closeModal.bind(null, editProfileModal));
+editProfileCloseBtn.addEventListener("click", function () {
+  closeModal(editProfileModal);
+});
 
 function handleProfileSubmit(evt) {
   evt.preventDefault();
   console.log("Form submitted");
   profileName.textContent = editProfileNameInput.value;
   profileDescription.textContent = editProfileDescriptionInput.value;
-  editProfileModal.classList.remove("modal_is-opened");
+  closeModal(editProfileModal);
 };
 
 editProfileForm.addEventListener("submit", handleProfileSubmit);
 
-newPostBtn.addEventListener("click", openModal.bind(null, newPostModal));
+newPostBtn.addEventListener("click", function() {
+  openModal(newPostModal);
+});
 
-newPostCloseBtn.addEventListener("click", closeModal.bind(null, newPostModal));
+newPostCloseBtn.addEventListener("click", function() {
+  closeModal(newPostModal);
+});
 
 function handleNewPostSubmit(evt) {
   evt.preventDefault();
   console.log(newPostImageInput.value, newPostCaptionInput.value);
-  newPostModal.classList.remove("modal_is-opened");
+  closeModal(newPostModal);
   evt.target.reset();
 };
 
